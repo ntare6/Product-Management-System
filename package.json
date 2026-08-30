@@ -1,0 +1,38 @@
+{
+  "name": "product-management-system",
+  "version": "1.0.0",
+  "description": "Welcome to the Product Management System – a hands-on backend project designed to build real-world skills with Node.js, Express, and PostgreSQL.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntare6/Product-Management-System.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "postgresql",
+    "backend"
+  ],
+  "author": "Nduwayezu Sophonie",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ntare6/Product-Management-System/issues"
+  },
+  "homepage": "https://github.com/ntare6/Product-Management-System#readme",
+  "devDependencies": {
+    "eslint": "^10.9.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.6",
+    "nodemon": "^3.1.14",
+    "prettier": "^3.9.6"
+  }
+}
